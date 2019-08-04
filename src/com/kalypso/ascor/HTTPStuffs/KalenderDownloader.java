@@ -42,6 +42,14 @@ public class KalenderDownloader {
         Map<String, String> parameters = new HashMap<>();
         parameters.put("ev[addr]", "19938");
         parameters.put("str_20542","");
+        parameters.put("func","evList");
+        parameters.put("mod","events");
+        parameters.put("ev[start]","2019-07-29");
+        parameters.put("ev[end]","2019-09-08");
+        parameters.put("y","2019");
+        parameters.put("m","08");
+        parameters.put("recon","duoudcvk3vbkaegoj9b3fo548s");
+        parameters.put("dc","1564937852900");
 
         con.setDoOutput(true);
         DataOutputStream out = null;
